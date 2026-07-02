@@ -20,8 +20,9 @@ A careful reviewer that checks recent changes for bugs, missing error handling, 
 │   └── plugin.json          # manifest (name + version)
 ├── commands/
 │   └── summarize-changes.md
-└── agents/
-    └── code-reviewer.md
+├── agents/
+│   └── code-reviewer.md
+└── .github/                 # CI that validates the plugin structure
 ```
 
 ## Try it locally
